@@ -146,7 +146,7 @@ it will save the output image as out.jpg
 
 If you pass a webcam path it will stream the output othervise it saves the video
 
-![](doc-img/out (4).jpg)
+![](doc-img/out_4.jpg)
 
 
 
