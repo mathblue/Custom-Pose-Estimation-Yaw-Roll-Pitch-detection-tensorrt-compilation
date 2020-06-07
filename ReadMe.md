@@ -46,7 +46,7 @@ To import the images:
 
 `cp /Users/Utente/Desktop/annotator/coco-annotator-master/datasets/<localdirectory>/ annotator_webclient:/datasets/<docker dataset folder>`
 
-![cat2](C:\Users\Utente\Desktop\POSE-ESTIMATION\doc-img\cat2.PNG)
+![](doc-img/cat2.PNG)
 
 In this last image:
 
@@ -146,7 +146,7 @@ it will save the output image as out.jpg
 
 If you pass a webcam path it will stream the output othervise it saves the video
 
-![out (4)](C:\Users\Utente\Desktop\POSE-ESTIMATION\doc-img\out (4).jpg)
+![](doc-img/out (4).jpg)
 
 
 
@@ -186,13 +186,13 @@ Given this two  matrixes it computes through some math (and here I let functions
 
 (there is some math to understand and explore if someone wants)
 
-![rot](C:\Users\Utente\Desktop\POSE-ESTIMATION\custom_pose\poseFINAL\rot.jpg)
+![](doc-img/rot.jpg)
 
 **demo-anglesub.py** and  **demo-face.py** are like demo.py but with this angle output added to pose estimation. They put in the image_points matrix the detected points through pose estimation automatically and that they even display it live if you have a webcam access.
 
 (-->ON JETSON NANO in one place of the code replace cv2.cv2.SOLVEPNP_ITERACTIVE with cv2.SOLVEPNP_ITERACTIVE and of course always adjust the paths)
 
-![out](C:\Users\Utente\Desktop\POSE-ESTIMATION\doc-img\out.jpg)
+![](doc-img/out.jpg)
 
 (live webcam inference with Jetson nano)
 
