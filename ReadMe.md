@@ -40,7 +40,7 @@ $ docker-compose up
 
 This command will pull the latest stable image from [dockerhub](https://hub.docker.com/r/jsbroks/coco-annotator), which pre-complied with all dependencies. The instance can be found at `http://localhost:5000/`. 
 
-![docker-usage](C:\Users\Utente\Desktop\POSE-ESTIMATION\doc-img\docker-usage.PNG)
+https://github.com/mathblue/Custom-Pose-Estimation-Yaw-Roll-Pitch-detection-tensorrt-compilation/blob/master/doc-img/docker-usage.PNG?raw=true
 
 To import the images:
 
