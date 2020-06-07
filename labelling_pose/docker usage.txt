@@ -1,0 +1,8 @@
+start docker : $ docker-compose up
+
+access the contenitor: $ docker exec -it annotator_webclient bash AND THAN cd /datasets
+
+see running containters: docker container ls
+
+import images on the docker: $ docker cp /Users/Utente/Desktop/annotator/coco-annotator-master/datasets/temp/ annotator_webclient:/datasets/g
+localdirectory-->docker dataset folder

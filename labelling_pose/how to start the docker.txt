@@ -1,0 +1,3 @@
+in the docker terminal run it with docker compose up (down to shut down)
+and than go to the ip http://host:5000/ and import the images from docker terminal with cp
+label the images and than export coco and download from the GUI of the app
